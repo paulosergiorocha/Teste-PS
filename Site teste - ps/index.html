@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Game mania </title>
+    <!--Bootsrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Estilização-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <header>
+        <!--Cabeçalho-->
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="./imagens/Logo game mania.png" alt="Logo game mania">
+            </a>
+
+            <div class="containerSearch">
+                <input class="searchText" type="text" placeholder="Pesquisar...">
+                <a class="searchBtn">
+                    <img class="loupe-blue" src="./imagens/loupe-blue.svg" style="width: 20px; height: 20px;"
+                        alt="Icon Lupa Blue">
+                    <img class="loupe-white" src="./imagens/loupe-white.svg" style="width: 20px; height: 20px;"
+                        alt="Icon Lupa White">
+                </a>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li> <a href="#">Inicio </a></li>
+                <li> <a href="#">Configurações </a></li>
+                <li> <a href="#">Produtos </a></li>
+                <li> <a href="#">Contato </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="containerMain">
+        <!--Componentes de venda-->
+        <div class="componentesEletro">
+            <a href="#"> Aúdio</a>
+            <a href="#"> Computadores</a>
+            <a href="#"> Eletrônicos</a>
+            <a href="#"> Consoles</a>
+        </div>
+
+        <!--Carrosel-->
+        <div id="carouselExampleCaptions" class="carousel slide carrosel-btn">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/Slide-1.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide </h5>
+                        <p>Produtos de ultima geração</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/Slide-2.png" class="d-block w-100" alt="slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide</h5>
+                        <p>Hardware de alta eficiencia </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/Slide-3.png" class="d-block w-100" alt="slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide</h5>
+                        <p> Computadores para uso diario</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <section>
+        <!--Sessão de produtos-->
+        <div class="containerProdutos">
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 1">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 2">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 2">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 2">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 2">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+
+            <div class="estilizaçaoPr">
+                <a class="estilizaçaoPr" href="#">
+                    <img src="./imagens/Produto-ps5.png" alt="Produto 2">
+                    <p> Console Playstation 5 Sony, Controle sem fio DualSense, Com Mídia Física</p>
+                    <h3> R$ 5.000,00</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Codigo Footer-->
+    <footer>
+        <div class="containerFooter">
+            <div class="estilizaçaoFooter">
+                <h5> Mídias Digitais</h5>
+                <img src="./imagens/linhaRodape.png" alt="Linha do rodape 1">
+
+                <div class="icons">
+                    <div>
+                        <a href="#"> <i class="bi bi-instagram fs-2"></i></a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-facebook fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-twitter-x fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-youtube fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-tiktok fs-2"></i> </a>
+                    </div>
+                </div>
+
+                <h5> Baixe nosso aplicativo</h5>
+                <img src="./imagens/linhaRodape.png" alt="Linha do rodape 2">
+
+                <div class="icons">
+                    <div>
+                        <a href="#"> <i class="bi bi-apple fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-google-play fs-2"></i> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="estilizaçaoFooter">
+                <h5> Atendimento </h5>
+                <img src="./imagens/linhaRodape.png" alt="Linha do rodape 3">
+                <p> <strong> Horario de atendimento: </strong> <br>
+                    08:00 às 20:00 - segunda a sábado</p>
+
+                <p> <strong> Endereço: </strong>
+                    Rua Carlos Gomes, <br> 1321 - 9° andar - CEP: 13480-010</p>
+
+                <p> <strong> E-mail: </strong>
+                    game_mania13@gmail.com </p>
+            </div>
+
+            <div class="estilizaçaoFooter">
+                <h5> Entre em contato</h5>
+                <img src="./imagens/linhaRodape.png" alt="Linha do rodape 4">
+
+                <div class="icons">
+                    <div>
+                        <a href="#"> <i class="bi bi-whatsapp fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-messenger fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-google fs-2"></i> </a>
+                    </div>
+                    <div>
+                        <a href="#"> <i class="bi bi-telegram fs-2"></i> </a>
+                    </div>
+                </div>
+
+                <h5> Chat</h5>
+                <img src="./imagens/linhaRodape.png" alt="Linha do rodape 5">
+                <div class="chatP">
+                    <a class="chatP" href="#">
+                        <i class="bi bi-chevron-double-right fs-3"></i>
+                        <p> Inicie o seu atendimento</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS/mobileNavbar.js"> </script>
+</body>
+
+</html>
